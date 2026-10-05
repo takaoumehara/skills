@@ -1,0 +1,116 @@
+{
+  "name": "takaoumehara",
+  "description": "Claude Code skills by Takao Umehara: multi-device pairing, product-development routing, interactive experiences, intuitive game design, session handoff, and repo hygiene.",
+  "owner": {
+    "name": "Takao Umehara",
+    "url": "https://github.com/takaoumehara"
+  },
+  "plugins": [
+    {
+      "name": "snap-pair",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/snap-pair-skill"
+      },
+      "description": "Pair phones and screens by QR, PIN or broadcast and stream realtime input over Firebase, PartyKit, WebRTC or BroadcastChannel. Ships with the snap-pair-core npm package.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Takao Umehara",
+        "url": "https://github.com/takaoumehara"
+      },
+      "homepage": "https://takaoumehara.github.io/snap-pair-skill/",
+      "repository": "https://github.com/takaoumehara/snap-pair-skill",
+      "license": "MIT",
+      "category": "multi-device",
+      "tags": [
+        "multi-device",
+        "realtime",
+        "firebase",
+        "webrtc",
+        "react",
+        "qr-pairing"
+      ]
+    },
+    {
+      "name": "superforge-skills",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/superforge-skill"
+      },
+      "description": "One thin router chooses among fourteen product specialists (brain, biz, brand, UI, dev, test, debug, a11y, secure, verify, ship and more) and gates release behind verification.",
+      "category": "product-development",
+      "tags": [
+        "router",
+        "product-development",
+        "verification",
+        "context-budget"
+      ]
+    },
+    {
+      "name": "interactive-experience-skills",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/interactive-experience-skills"
+      },
+      "description": "Three design skills for work built on human movement, cameras and sensors: a director that first decides experience vs. training tool, plus specialists for installations and movement-learning systems.",
+      "category": "interactive-design",
+      "tags": [
+        "interactive-experience",
+        "installation",
+        "pose-estimation",
+        "movement-learning"
+      ]
+    },
+    {
+      "name": "intuitive-game-design",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/intuitive-game-design-skill"
+      },
+      "description": "Design and build games a first-time player understands with no manual: intuition design and diagnosis, one-tap game feel, Web Audio, camera/body input, calm puzzles, multiplayer sync.",
+      "category": "game-design",
+      "tags": [
+        "game-design",
+        "game-feel",
+        "web-audio",
+        "onboarding"
+      ]
+    },
+    {
+      "name": "cross-model-handoff",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/cross-model-handoff"
+      },
+      "description": "Passphrase-based session handoff: write one note before /clear or a tool switch, resume by name in Claude Code, Codex, Gemini CLI, Antigravity, Cursor or any AGENTS.md-aware tool.",
+      "category": "workflow",
+      "tags": [
+        "handoff",
+        "context-management",
+        "multi-agent"
+      ]
+    },
+    {
+      "name": "repo-cleanup",
+      "source": {
+        "source": "github",
+        "repo": "takaoumehara/repo-cleanup"
+      },
+      "description": "Take a messy git working tree back to clean (untrack build output, complete .gitignore, sort changes into commit / stash / discard) without leaking a secret or losing uncommitted work.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Takao Umehara",
+        "url": "https://github.com/takaoumehara"
+      },
+      "repository": "https://github.com/takaoumehara/repo-cleanup",
+      "license": "MIT",
+      "category": "workflow",
+      "tags": [
+        "git",
+        "cleanup",
+        "secrets",
+        "hygiene"
+      ]
+    }
+  ]
+}
