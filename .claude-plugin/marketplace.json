@@ -13,7 +13,7 @@
         "repo": "takaoumehara/snap-pair-skill"
       },
       "description": "Pair phones and screens by QR, PIN or broadcast and stream realtime input over Firebase, PartyKit, WebRTC or BroadcastChannel. Ships with the snap-pair-core npm package.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Takao Umehara",
         "url": "https://github.com/takaoumehara"

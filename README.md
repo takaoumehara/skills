@@ -2,7 +2,7 @@
 
 <p>
   <b>English</b> · <a href="README.ja.md">日本語</a> ·
-  <a href="https://takaoumehara.github.io/skills/">Docs site</a>
+  <a href="https://takaoumehara-skills-docs.vercel.app">Docs site</a>
 </p>
 
 A Claude Code plugin marketplace that indexes every public skill by Takao Umehara.
@@ -33,9 +33,9 @@ Pick up new releases later with `/plugin marketplace update takaoumehara`.
 | Plugin | Install | What it does | Skills | Repo |
 |---|---|---|---|---|
 | **snap-pair** | `/plugin install snap-pair@takaoumehara` | Pairs phones and screens by QR code, PIN, or broadcast, then streams realtime input over Firebase, PartyKit, WebRTC, or BroadcastChannel. Backed by the `snap-pair-core` npm package. [Docs](https://takaoumehara.github.io/snap-pair-skill/) | 1 | [snap-pair-skill](https://github.com/takaoumehara/snap-pair-skill) |
-| **superforge-skills** | `/plugin install superforge-skills@takaoumehara` | A thin router that sends each task to one of 14 product specialists (brain, biz, brand, ui, scroll, dev, test, debug, a11y, secure, roast, verify, ship, handoff), with a verification gate before release. | 15 | [superforge-skill](https://github.com/takaoumehara/superforge-skill) |
-| **interactive-experience-skills** | `/plugin install interactive-experience-skills@takaoumehara` | For work built on human movement, cameras, and sensors. A director first decides whether you are making an experience or a training tool, then hands off to the installation specialist or the movement-learning specialist. | 3 | [interactive-experience-skills](https://github.com/takaoumehara/interactive-experience-skills) |
-| **intuitive-game-design** | `/plugin install intuitive-game-design@takaoumehara` | Designs and builds games a first-time player understands without a manual: intuition design and diagnosis, one-tap game feel, Web Audio, camera and body input, calm puzzles, and multiplayer sync. | 1 | [intuitive-game-design-skill](https://github.com/takaoumehara/intuitive-game-design-skill) |
+| **superforge-skills** | `/plugin install superforge-skills@takaoumehara` | A thin router that sends each task to one of 14 product specialists (brain, biz, brand, ui, scroll, dev, test, debug, a11y, secure, roast, verify, ship, handoff), with a verification gate before release. [Docs](https://superforge-skill-docs.vercel.app) | 15 | [superforge-skill](https://github.com/takaoumehara/superforge-skill) |
+| **interactive-experience-skills** | `/plugin install interactive-experience-skills@takaoumehara` | For work built on human movement, cameras, and sensors. A director first decides whether you are making an experience or a training tool, then hands off to the installation specialist or the movement-learning specialist. [Docs](https://interactive-experience-skills-docs.vercel.app) | 3 | [interactive-experience-skills](https://github.com/takaoumehara/interactive-experience-skills) |
+| **intuitive-game-design** | `/plugin install intuitive-game-design@takaoumehara` | Designs and builds games a first-time player understands without a manual: intuition design and diagnosis, one-tap game feel, Web Audio, camera and body input, calm puzzles, and multiplayer sync. [Docs](https://intuitive-game-design-docs.vercel.app) | 1 | [intuitive-game-design-skill](https://github.com/takaoumehara/intuitive-game-design-skill) |
 | **cross-model-handoff** | `/plugin install cross-model-handoff@takaoumehara` | Run `/handoff` before `/clear` or a tool switch to save one note under a passphrase. Resume it by name in Claude Code, Codex, Gemini CLI, Antigravity, Cursor, or any tool that reads AGENTS.md. | 3 + 2 hooks | [cross-model-handoff](https://github.com/takaoumehara/cross-model-handoff) |
 | **repo-cleanup** | `/plugin install repo-cleanup@takaoumehara` | Brings a messy git working tree back to clean: untracks build output, completes `.gitignore`, and sorts changes into commit, stash, or discard. It never leaks a secret or drops uncommitted work. | 1 | [repo-cleanup](https://github.com/takaoumehara/repo-cleanup) |
 
@@ -71,6 +71,12 @@ Each repo is also a one-plugin marketplace of its own, for example:
 
 - **`ssh: … Could not read from remote repository`**: Claude Code clones GitHub sources over SSH when an SSH key looks configured. Set `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` to make it use HTTPS instead. All of these repos are public, so no credentials are needed.
 - **Plugin not found**: run `/plugin marketplace update takaoumehara` and try again.
+
+## Docs site
+
+Live: https://takaoumehara-skills-docs.vercel.app
+
+GitHub Pages (`https://takaoumehara.github.io/skills/`) is wired in `.github/workflows/pages.yml` but needs a one-time enable in the repo Settings → Pages → Source: GitHub Actions (the API token cannot create the Pages site).
 
 ## Maintaining
 

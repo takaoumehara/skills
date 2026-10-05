@@ -2,7 +2,7 @@
 
 <p>
   <a href="README.md">English</a> · <b>日本語</b> ·
-  <a href="https://takaoumehara.github.io/skills/">ドキュメントサイト</a>
+  <a href="https://takaoumehara-skills-docs.vercel.app">ドキュメントサイト</a>
 </p>
 
 Takao Umehara が公開しているスキルをすべて集めた Claude Code プラグインマーケットプレイスです。
@@ -33,9 +33,9 @@ claude plugin install superforge-skills@takaoumehara
 | プラグイン | インストール | できること | スキル数 | リポジトリ |
 |---|---|---|---|---|
 | **snap-pair** | `/plugin install snap-pair@takaoumehara` | QRコード・PIN・ブロードキャストでスマホと画面をペアリングし、Firebase・PartyKit・WebRTC・BroadcastChannel でリアルタイムに入力を送ります。npm パッケージ `snap-pair-core` が土台です。[ドキュメント](https://takaoumehara.github.io/snap-pair-skill/) | 1 | [snap-pair-skill](https://github.com/takaoumehara/snap-pair-skill) |
-| **superforge-skills** | `/plugin install superforge-skills@takaoumehara` | 薄いルーターが、各タスクを14のプロダクト専門スキル（brain、biz、brand、ui、scroll、dev、test、debug、a11y、secure、roast、verify、ship、handoff）のどれかに振り分けます。リリースの前には検証ゲートがあります。 | 15 | [superforge-skill](https://github.com/takaoumehara/superforge-skill) |
-| **interactive-experience-skills** | `/plugin install interactive-experience-skills@takaoumehara` | 人の動き・カメラ・センサーを使う制作向けです。まずディレクターが「体験」をつくるのか「トレーニングツール」をつくるのかを決め、インスタレーションの専門スキルか、動作学習の専門スキルに引き継ぎます。 | 3 | [interactive-experience-skills](https://github.com/takaoumehara/interactive-experience-skills) |
-| **intuitive-game-design** | `/plugin install intuitive-game-design@takaoumehara` | 初めてのプレイヤーが説明書なしで分かるゲームを設計・実装します。直感の設計と診断、ワンタップのゲームフィール、Web Audio、カメラや体を使った入力、落ち着いたパズル、マルチプレイヤー同期を扱います。 | 1 | [intuitive-game-design-skill](https://github.com/takaoumehara/intuitive-game-design-skill) |
+| **superforge-skills** | `/plugin install superforge-skills@takaoumehara` | 薄いルーターが、各タスクを14のプロダクト専門スキル（brain、biz、brand、ui、scroll、dev、test、debug、a11y、secure、roast、verify、ship、handoff）のどれかに振り分けます。リリースの前には検証ゲートがあります。 [ドキュメント](https://superforge-skill-docs.vercel.app) | 15 | [superforge-skill](https://github.com/takaoumehara/superforge-skill) |
+| **interactive-experience-skills** | `/plugin install interactive-experience-skills@takaoumehara` | 人の動き・カメラ・センサーを使う制作向けです。まずディレクターが「体験」をつくるのか「トレーニングツール」をつくるのかを決め、インスタレーションの専門スキルか、動作学習の専門スキルに引き継ぎます。 [ドキュメント](https://interactive-experience-skills-docs.vercel.app) | 3 | [interactive-experience-skills](https://github.com/takaoumehara/interactive-experience-skills) |
+| **intuitive-game-design** | `/plugin install intuitive-game-design@takaoumehara` | 初めてのプレイヤーが説明書なしで分かるゲームを設計・実装します。直感の設計と診断、ワンタップのゲームフィール、Web Audio、カメラや体を使った入力、落ち着いたパズル、マルチプレイヤー同期を扱います。 [ドキュメント](https://intuitive-game-design-docs.vercel.app) | 1 | [intuitive-game-design-skill](https://github.com/takaoumehara/intuitive-game-design-skill) |
 | **cross-model-handoff** | `/plugin install cross-model-handoff@takaoumehara` | `/clear` やツールの切り替えの前に `/handoff` を実行すると、合言葉つきのノートを1つ保存します。Claude Code、Codex、Gemini CLI、Antigravity、Cursor、または AGENTS.md を読むツールなら、名前を指定して再開できます。 | 3 + 2 フック | [cross-model-handoff](https://github.com/takaoumehara/cross-model-handoff) |
 | **repo-cleanup** | `/plugin install repo-cleanup@takaoumehara` | 散らかった git の作業ツリーをきれいな状態に戻します。ビルド成果物の追跡を外し、`.gitignore` を補い、変更をコミット・stash・破棄に仕分けます。シークレットを漏らすことも、未コミットの作業を失うこともありません。 | 1 | [repo-cleanup](https://github.com/takaoumehara/repo-cleanup) |
 
